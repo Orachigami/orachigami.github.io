@@ -1,0 +1,878 @@
+{
+	"version": 7,
+	"level": "",
+	"initialSaveVersion": 7,
+	"lastUpgradeVersion": 7,
+	"sexScenes": [],
+	"poses": [],
+	"props": [
+		{
+			"iD": "Group",
+			"label": "Dialogues",
+			"position":
+			{
+				"x": 2069.919189453125,
+				"y": 5.15264892578125,
+				"z": -0.000335693359375
+			},
+			"rotation":
+			{
+				"pitch": 0,
+				"yaw": 0,
+				"roll": 0
+			},
+			"scale":
+			{
+				"x": 1,
+				"y": 1,
+				"z": 1
+			},
+			"floatSettings":
+			{
+			},
+			"intSettings":
+			{
+			},
+			"colorSettings":
+			{
+			},
+			"boolSettings":
+			{
+				"ShowIcon": true
+			},
+			"stringSettings":
+			{
+			},
+			"vectorSettings":
+			{
+			},
+			"bIsVisible": true,
+			"bIsInteractable": true,
+			"bIsCompletelyLocked": false,
+			"guid": "16CB814740348D4D4B4778AC1360B0ED",
+			"parent": "00000000000000000000000000000000",
+			"childIndex": 2,
+			"attachment": "None",
+			"attachmentCharacterIndex": 0,
+			"bIsFoldedOut": true,
+			"customEvents":
+			{
+				"outEvents":
+				{
+				},
+				"inEvents":
+				{
+					"SetVisibility":
+					{
+						"eventId": "SetVisibility",
+						"eventNames": [],
+						"eventValues": []
+					},
+					"SetOptionValue":
+					{
+						"eventId": "SetOptionValue",
+						"eventNames": [],
+						"eventValues": []
+					}
+				}
+			}
+		},
+		{
+			"iD": "Group",
+			"label": "<CHARACTER_TEMPLATE>Mind",
+			"position":
+			{
+				"x": 0,
+				"y": -100,
+				"z": 0
+			},
+			"rotation":
+			{
+				"pitch": 0,
+				"yaw": 0,
+				"roll": 0
+			},
+			"scale":
+			{
+				"x": 1,
+				"y": 1,
+				"z": 1
+			},
+			"floatSettings":
+			{
+			},
+			"intSettings":
+			{
+			},
+			"colorSettings":
+			{
+			},
+			"boolSettings":
+			{
+				"ShowIcon": true
+			},
+			"stringSettings":
+			{
+			},
+			"vectorSettings":
+			{
+			},
+			"bIsVisible": true,
+			"bIsInteractable": true,
+			"bIsCompletelyLocked": false,
+			"guid": "3F754E62441BB776CB60609C4A15C2AA",
+			"parent": "16CB814740348D4D4B4778AC1360B0ED",
+			"childIndex": 0,
+			"attachment": "None",
+			"attachmentCharacterIndex": 0,
+			"bIsFoldedOut": true,
+			"customEvents":
+			{
+				"outEvents":
+				{
+				},
+				"inEvents":
+				{
+					"SetVisibility":
+					{
+						"eventId": "SetVisibility",
+						"eventNames": [],
+						"eventValues": []
+					},
+					"SetOptionValue":
+					{
+						"eventId": "SetOptionValue",
+						"eventNames": [],
+						"eventValues": []
+					}
+				}
+			}
+		},
+		{
+			"iD": "Condition",
+			"label": "<CHARACTER_TEMPLATE>Condition",
+			"position":
+			{
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"rotation":
+			{
+				"pitch": 0,
+				"yaw": 0,
+				"roll": 0
+			},
+			"scale":
+			{
+				"x": 1,
+				"y": 1,
+				"z": 1
+			},
+			"floatSettings":
+			{
+			},
+			"intSettings":
+			{
+			},
+			"colorSettings":
+			{
+			},
+			"boolSettings":
+			{
+				"HideDuringPlayMode": true
+			},
+			"stringSettings":
+			{
+				"valueA": "",
+				"valueB": "<CHARACTER_TEMPLATE>",
+				"Condition": "=="
+			},
+			"vectorSettings":
+			{
+			},
+			"bIsVisible": true,
+			"bIsInteractable": true,
+			"bIsCompletelyLocked": false,
+			"guid": "7BE5AE834CE48A9368035A80210C57A8",
+			"parent": "3F754E62441BB776CB60609C4A15C2AA",
+			"childIndex": 0,
+			"attachment": "None",
+			"attachmentCharacterIndex": 0,
+			"bIsFoldedOut": true,
+			"customEvents":
+			{
+				"outEvents":
+				{
+					"OnConditionTrue":
+					{
+						"eventId": "OnConditionTrue",
+						"eventNames": [
+							"<CHARACTER_TEMPLATE>_get_stage"
+						],
+						"eventValues": [
+							""
+						]
+					},
+					"OnConditionFalse":
+					{
+						"eventId": "OnConditionFalse",
+						"eventNames": [],
+						"eventValues": []
+					},
+					"OnConditionTrueReturnA":
+					{
+						"eventId": "OnConditionTrueReturnA",
+						"eventNames": [],
+						"eventValues": []
+					},
+					"OnConditionFalseReturnA":
+					{
+						"eventId": "OnConditionFalseReturnA",
+						"eventNames": [],
+						"eventValues": []
+					},
+					"OnConditionTrueReturnB":
+					{
+						"eventId": "OnConditionTrueReturnB",
+						"eventNames": [],
+						"eventValues": []
+					},
+					"OnConditionFalseReturnB":
+					{
+						"eventId": "OnConditionFalseReturnB",
+						"eventNames": [],
+						"eventValues": []
+					}
+				},
+				"inEvents":
+				{
+					"SetVisibility":
+					{
+						"eventId": "SetVisibility",
+						"eventNames": [],
+						"eventValues": []
+					},
+					"SetOptionValue":
+					{
+						"eventId": "SetOptionValue",
+						"eventNames": [],
+						"eventValues": []
+					},
+					"SetValueA":
+					{
+						"eventId": "SetValueA",
+						"eventNames": [
+							"currect_active_character"
+						],
+						"eventValues": [
+							""
+						]
+					},
+					"SetValueB":
+					{
+						"eventId": "SetValueB",
+						"eventNames": [],
+						"eventValues": []
+					},
+					"SetValueAAndRun":
+					{
+						"eventId": "SetValueAAndRun",
+						"eventNames": [],
+						"eventValues": []
+					},
+					"SetValueBAndRun":
+					{
+						"eventId": "SetValueBAndRun",
+						"eventNames": [],
+						"eventValues": []
+					},
+					"Run":
+					{
+						"eventId": "Run",
+						"eventNames": [
+							"dialogue_show"
+						],
+						"eventValues": [
+							""
+						]
+					}
+				}
+			}
+		},
+		{
+			"iD": "Variable",
+			"label": "<CHARACTER_TEMPLATE>Stage",
+			"position":
+			{
+				"x": -25,
+				"y": 0,
+				"z": -0.0003662109375
+			},
+			"rotation":
+			{
+				"pitch": 0,
+				"yaw": 0,
+				"roll": 0
+			},
+			"scale":
+			{
+				"x": 1,
+				"y": 1,
+				"z": 1
+			},
+			"floatSettings":
+			{
+			},
+			"intSettings":
+			{
+			},
+			"colorSettings":
+			{
+			},
+			"boolSettings":
+			{
+				"HideDuringPlayMode": true
+			},
+			"stringSettings":
+			{
+				"Value": "<DEFAULT_STAGE_TEMPLATE>"
+			},
+			"vectorSettings":
+			{
+			},
+			"bIsVisible": true,
+			"bIsInteractable": true,
+			"bIsCompletelyLocked": false,
+			"guid": "9055B91A458E5598263FCA86DC519B11",
+			"parent": "7BE5AE834CE48A9368035A80210C57A8",
+			"childIndex": 0,
+			"attachment": "None",
+			"attachmentCharacterIndex": 0,
+			"bIsFoldedOut": true,
+			"customEvents":
+			{
+				"outEvents":
+				{
+					"OnValueChanged":
+					{
+						"eventId": "OnValueChanged",
+						"eventNames": [],
+						"eventValues": []
+					},
+					"OnValueGetExecuted":
+					{
+						"eventId": "OnValueGetExecuted",
+						"eventNames": [
+							"<CHARACTER_TEMPLATE>_stage"
+						],
+						"eventValues": [
+							""
+						]
+					}
+				},
+				"inEvents":
+				{
+					"SetVisibility":
+					{
+						"eventId": "SetVisibility",
+						"eventNames": [],
+						"eventValues": []
+					},
+					"SetOptionValue":
+					{
+						"eventId": "SetOptionValue",
+						"eventNames": [],
+						"eventValues": []
+					},
+					"ChangeValue":
+					{
+						"eventId": "ChangeValue",
+						"eventNames": [
+							"reset",
+							"<CHARACTER_TEMPLATE>_set_stage"
+						],
+						"eventValues": [
+							"<DEFAULT_STAGE_TEMPLATE>",
+							""
+						]
+					},
+					"GetValue":
+					{
+						"eventId": "GetValue",
+						"eventNames": [
+							"<CHARACTER_TEMPLATE>_get_stage"
+						],
+						"eventValues": [
+							""
+						]
+					}
+				}
+			}
+		},
+		{
+			"iD": "Condition",
+			"label": "<CHARACTER_TEMPLATE>StageCondition_<STAGE_TEMPLATE>",
+			"position":
+			{
+				"x": -25,
+				"y": 25,
+				"z": 0
+			},
+			"rotation":
+			{
+				"pitch": 0,
+				"yaw": 0,
+				"roll": 0
+			},
+			"scale":
+			{
+				"x": 1,
+				"y": 1,
+				"z": 1
+			},
+			"floatSettings":
+			{
+			},
+			"intSettings":
+			{
+			},
+			"colorSettings":
+			{
+			},
+			"boolSettings":
+			{
+				"HideDuringPlayMode": true
+			},
+			"stringSettings":
+			{
+				"valueA": "3",
+				"valueB": "<STAGE_TEMPLATE>",
+				"Condition": "=="
+			},
+			"vectorSettings":
+			{
+			},
+			"bIsVisible": true,
+			"bIsInteractable": true,
+			"bIsCompletelyLocked": false,
+			"guid": "D9C517BE4037A028C09EA49123E74A0D",
+			"parent": "9055B91A458E5598263FCA86DC519B11",
+			"childIndex": 0,
+			"attachment": "None",
+			"attachmentCharacterIndex": 0,
+			"bIsFoldedOut": true,
+			"customEvents":
+			{
+				"outEvents":
+				{
+					"OnConditionTrue":
+					{
+						"eventId": "OnConditionTrue",
+						"eventNames": [
+							"<CHARACTER_TEMPLATE>_check_init_condition_for_stage_<STAGE_TEMPLATE>"
+						],
+						"eventValues": [
+							""
+						]
+					},
+					"OnConditionFalse":
+					{
+						"eventId": "OnConditionFalse",
+						"eventNames": [],
+						"eventValues": []
+					},
+					"OnConditionTrueReturnA":
+					{
+						"eventId": "OnConditionTrueReturnA",
+						"eventNames": [],
+						"eventValues": []
+					},
+					"OnConditionFalseReturnA":
+					{
+						"eventId": "OnConditionFalseReturnA",
+						"eventNames": [],
+						"eventValues": []
+					},
+					"OnConditionTrueReturnB":
+					{
+						"eventId": "OnConditionTrueReturnB",
+						"eventNames": [],
+						"eventValues": []
+					},
+					"OnConditionFalseReturnB":
+					{
+						"eventId": "OnConditionFalseReturnB",
+						"eventNames": [],
+						"eventValues": []
+					}
+				},
+				"inEvents":
+				{
+					"SetVisibility":
+					{
+						"eventId": "SetVisibility",
+						"eventNames": [],
+						"eventValues": []
+					},
+					"SetOptionValue":
+					{
+						"eventId": "SetOptionValue",
+						"eventNames": [],
+						"eventValues": []
+					},
+					"SetValueA":
+					{
+						"eventId": "SetValueA",
+						"eventNames": [],
+						"eventValues": []
+					},
+					"SetValueB":
+					{
+						"eventId": "SetValueB",
+						"eventNames": [],
+						"eventValues": []
+					},
+					"SetValueAAndRun":
+					{
+						"eventId": "SetValueAAndRun",
+						"eventNames": [
+							"<CHARACTER_TEMPLATE>_stage"
+						],
+						"eventValues": [
+							""
+						]
+					},
+					"SetValueBAndRun":
+					{
+						"eventId": "SetValueBAndRun",
+						"eventNames": [],
+						"eventValues": []
+					},
+					"Run":
+					{
+						"eventId": "Run",
+						"eventNames": [],
+						"eventValues": []
+					}
+				}
+			}
+		},
+		{
+			"iD": "Condition",
+			"label": "<CHARACTER_TEMPLATE>StageInitCondition_<STAGE_TEMPLATE>",
+			"position":
+			{
+				"x": -25,
+				"y": 0,
+				"z": 0
+			},
+			"rotation":
+			{
+				"pitch": 0,
+				"yaw": 0,
+				"roll": 0
+			},
+			"scale":
+			{
+				"x": 1,
+				"y": 1,
+				"z": 1
+			},
+			"floatSettings":
+			{
+			},
+			"intSettings":
+			{
+			},
+			"colorSettings":
+			{
+			},
+			"boolSettings":
+			{
+				"HideDuringPlayMode": true
+			},
+			"stringSettings":
+			{
+				"valueA": "false",
+				"valueB": "true",
+				"Condition": "=="
+			},
+			"vectorSettings":
+			{
+			},
+			"bIsVisible": true,
+			"bIsInteractable": true,
+			"bIsCompletelyLocked": false,
+			"guid": "F6BEA33040A92B2E109138AD04CB821E",
+			"parent": "D9C517BE4037A028C09EA49123E74A0D",
+			"childIndex": 0,
+			"attachment": "None",
+			"attachmentCharacterIndex": 0,
+			"bIsFoldedOut": true,
+			"customEvents":
+			{
+				"outEvents":
+				{
+					"OnConditionTrue":
+					{
+						"eventId": "OnConditionTrue",
+						"eventNames": [
+							"dialogue_run_actions",
+							"<CHARACTER_TEMPLATE>_check_menu_click_for_stage_<STAGE_TEMPLATE>"
+						],
+						"eventValues": [
+							"false",
+							""
+						]
+					},
+					"OnConditionFalse":
+					{
+						"eventId": "OnConditionFalse",
+						"eventNames": [
+							"dialogue_text",
+							"dialogue_option_text_001",
+							"dialogue_option_text_002",
+							"show_dialogue_options"
+						],
+						"eventValues": [
+							"Hey, beauty!",
+							"Hey, how are you?",
+							"Bye",
+							"2"
+						]
+					},
+					"OnConditionTrueReturnA":
+					{
+						"eventId": "OnConditionTrueReturnA",
+						"eventNames": [],
+						"eventValues": []
+					},
+					"OnConditionFalseReturnA":
+					{
+						"eventId": "OnConditionFalseReturnA",
+						"eventNames": [],
+						"eventValues": []
+					},
+					"OnConditionTrueReturnB":
+					{
+						"eventId": "OnConditionTrueReturnB",
+						"eventNames": [],
+						"eventValues": []
+					},
+					"OnConditionFalseReturnB":
+					{
+						"eventId": "OnConditionFalseReturnB",
+						"eventNames": [],
+						"eventValues": []
+					}
+				},
+				"inEvents":
+				{
+					"SetVisibility":
+					{
+						"eventId": "SetVisibility",
+						"eventNames": [],
+						"eventValues": []
+					},
+					"SetOptionValue":
+					{
+						"eventId": "SetOptionValue",
+						"eventNames": [],
+						"eventValues": []
+					},
+					"SetValueA":
+					{
+						"eventId": "SetValueA",
+						"eventNames": [
+							"dialogue_run_actions"
+						],
+						"eventValues": [
+							""
+						]
+					},
+					"SetValueB":
+					{
+						"eventId": "SetValueB",
+						"eventNames": [],
+						"eventValues": []
+					},
+					"SetValueAAndRun":
+					{
+						"eventId": "SetValueAAndRun",
+						"eventNames": [],
+						"eventValues": []
+					},
+					"SetValueBAndRun":
+					{
+						"eventId": "SetValueBAndRun",
+						"eventNames": [],
+						"eventValues": []
+					},
+					"Run":
+					{
+						"eventId": "Run",
+						"eventNames": [
+							"<CHARACTER_TEMPLATE>_check_init_condition_for_stage_<STAGE_TEMPLATE>"
+						],
+						"eventValues": [
+							""
+						]
+					}
+				}
+			}
+		},
+		{
+			"iD": "Condition",
+			"label": "MenuClickCondition_<MENU_ITEM_NUMBER_TEMPLATE>",
+			"position":
+			{
+				"x": -25,
+				"y": 0,
+				"z": 0
+			},
+			"rotation":
+			{
+				"pitch": 0,
+				"yaw": 0,
+				"roll": 0
+			},
+			"scale":
+			{
+				"x": 1,
+				"y": 1,
+				"z": 1
+			},
+			"floatSettings":
+			{
+			},
+			"intSettings":
+			{
+			},
+			"colorSettings":
+			{
+			},
+			"boolSettings":
+			{
+				"HideDuringPlayMode": true
+			},
+			"stringSettings":
+			{
+				"valueA": "0",
+				"valueB": "<MENU_ITEM_NUMBER_VALUE_TEMPLATE>",
+				"Condition": "=="
+			},
+			"vectorSettings":
+			{
+			},
+			"bIsVisible": true,
+			"bIsInteractable": true,
+			"bIsCompletelyLocked": false,
+			"guid": "CCC27D8B4AD1579C9DA2F2B8F9029B2A",
+			"parent": "F6BEA33040A92B2E109138AD04CB821E",
+			"childIndex": 0,
+			"attachment": "None",
+			"attachmentCharacterIndex": 0,
+			"bIsFoldedOut": false,
+			"customEvents":
+			{
+				"outEvents":
+				{
+					"OnConditionTrue":
+					{
+						"eventId": "OnConditionTrue",
+						"eventNames": [],
+						"eventValues": []
+					},
+					"OnConditionFalse":
+					{
+						"eventId": "OnConditionFalse",
+						"eventNames": [],
+						"eventValues": []
+					},
+					"OnConditionTrueReturnA":
+					{
+						"eventId": "OnConditionTrueReturnA",
+						"eventNames": [],
+						"eventValues": []
+					},
+					"OnConditionFalseReturnA":
+					{
+						"eventId": "OnConditionFalseReturnA",
+						"eventNames": [],
+						"eventValues": []
+					},
+					"OnConditionTrueReturnB":
+					{
+						"eventId": "OnConditionTrueReturnB",
+						"eventNames": [],
+						"eventValues": []
+					},
+					"OnConditionFalseReturnB":
+					{
+						"eventId": "OnConditionFalseReturnB",
+						"eventNames": [],
+						"eventValues": []
+					}
+				},
+				"inEvents":
+				{
+					"SetVisibility":
+					{
+						"eventId": "SetVisibility",
+						"eventNames": [],
+						"eventValues": []
+					},
+					"SetOptionValue":
+					{
+						"eventId": "SetOptionValue",
+						"eventNames": [],
+						"eventValues": []
+					},
+					"SetValueA":
+					{
+						"eventId": "SetValueA",
+						"eventNames": [
+							"dialogue_option_clicked"
+						],
+						"eventValues": [
+							""
+						]
+					},
+					"SetValueB":
+					{
+						"eventId": "SetValueB",
+						"eventNames": [],
+						"eventValues": []
+					},
+					"SetValueAAndRun":
+					{
+						"eventId": "SetValueAAndRun",
+						"eventNames": [],
+						"eventValues": []
+					},
+					"SetValueBAndRun":
+					{
+						"eventId": "SetValueBAndRun",
+						"eventNames": [],
+						"eventValues": []
+					},
+					"Run":
+					{
+						"eventId": "Run",
+						"eventNames": [
+							"<CHARACTER_TEMPLATE>_check_menu_click_for_stage_<STAGE_TEMPLATE>"
+						],
+						"eventValues": [
+							""
+						]
+					}
+				}
+			}
+		}
+	],
+	"customMaterials": [],
+	"levelOptions":
+	{
+	}
+}

@@ -1,0 +1,3492 @@
+{
+	"version": 7,
+	"level": "",
+	"initialSaveVersion": 7,
+	"lastUpgradeVersion": 7,
+	"sexScenes": [],
+	"poses": [],
+	"props": [
+		{
+			"iD": "Transformer",
+			"label": "DialogueCameraControl",
+			"position":
+			{
+				"x": 2007.961181640625,
+				"y": -625.42474365234375,
+				"z": 133.60067749023438
+			},
+			"rotation":
+			{
+				"pitch": 0,
+				"yaw": 0,
+				"roll": 0
+			},
+			"scale":
+			{
+				"x": 1,
+				"y": 1.0000001192092896,
+				"z": 1.0000001192092896
+			},
+			"floatSettings":
+			{
+				"InterpolationExponent": 1,
+				"travelTime": 1,
+				"StartTravelTimeMultiplier": 1,
+				"EndTravelTimeMultiplier": 1
+			},
+			"intSettings":
+			{
+			},
+			"colorSettings":
+			{
+			},
+			"boolSettings":
+			{
+				"ShowIcon": true,
+				"IsAtEnd": false,
+				"UseShortestPath": true
+			},
+			"stringSettings":
+			{
+			},
+			"vectorSettings":
+			{
+				"startLocation":
+				{
+					"x": 0,
+					"y": 0,
+					"z": 0
+				},
+				"startRotation":
+				{
+					"x": 0,
+					"y": 0,
+					"z": 0
+				},
+				"StartScale":
+				{
+					"x": 1,
+					"y": 1.0000001192092896,
+					"z": 1.0000001192092896
+				},
+				"EndLocation":
+				{
+					"x": 0,
+					"y": 0,
+					"z": 0
+				},
+				"EndRotation":
+				{
+					"x": 0,
+					"y": 0,
+					"z": 0
+				},
+				"EndScale":
+				{
+					"x": 1,
+					"y": 1.0000001192092896,
+					"z": 1.0000001192092896
+				}
+			},
+			"bIsVisible": true,
+			"bIsInteractable": true,
+			"bIsCompletelyLocked": false,
+			"guid": "BB5CC1A54F744D575190A1A36ACF41A0",
+			"parent": "00000000000000000000000000000000",
+			"childIndex": 7,
+			"attachment": "Root",
+			"attachmentCharacterIndex": 0,
+			"bIsFoldedOut": true,
+			"customEvents":
+			{
+				"outEvents":
+				{
+					"OnReachedStart":
+					{
+						"eventId": "OnReachedStart",
+						"eventNames": [],
+						"eventValues": []
+					},
+					"OnReachedEnd":
+					{
+						"eventId": "OnReachedEnd",
+						"eventNames": [],
+						"eventValues": []
+					}
+				},
+				"inEvents":
+				{
+					"SetVisibility":
+					{
+						"eventId": "SetVisibility",
+						"eventNames": [],
+						"eventValues": []
+					},
+					"SetOptionValue":
+					{
+						"eventId": "SetOptionValue",
+						"eventNames": [],
+						"eventValues": []
+					},
+					"MoveToStart":
+					{
+						"eventId": "MoveToStart",
+						"eventNames": [],
+						"eventValues": []
+					},
+					"MoveToEnd":
+					{
+						"eventId": "MoveToEnd",
+						"eventNames": [],
+						"eventValues": []
+					},
+					"SetToStart":
+					{
+						"eventId": "SetToStart",
+						"eventNames": [],
+						"eventValues": []
+					},
+					"SetToEnd":
+					{
+						"eventId": "SetToEnd",
+						"eventNames": [],
+						"eventValues": []
+					},
+					"Stop":
+					{
+						"eventId": "Stop",
+						"eventNames": [],
+						"eventValues": []
+					}
+				}
+			}
+		},
+		{
+			"iD": "Camera",
+			"label": "DialogueCamera",
+			"position":
+			{
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"rotation":
+			{
+				"pitch": 0,
+				"yaw": 0,
+				"roll": 0
+			},
+			"scale":
+			{
+				"x": 1,
+				"y": 1,
+				"z": 1
+			},
+			"floatSettings":
+			{
+				"FieldOfView": 90,
+				"FocalDistance": 300,
+				"Aperture": 2.7999999523162842,
+				"WobbleSpeed": 0.10000000149011612,
+				"WobbleAmplitude": 10,
+				"WobbleFrequency": 1,
+				"WobblePersistence": 0.25,
+				"WobbleLacunarity": 2,
+				"possessTime": 0
+			},
+			"intSettings":
+			{
+			},
+			"colorSettings":
+			{
+			},
+			"boolSettings":
+			{
+				"CameraWobble": false,
+				"ShowFocalPlaneWhenEditing": true,
+				"AutoFocusLookAt": false,
+				"ShowCamera": false
+			},
+			"stringSettings":
+			{
+				"lookAt": ""
+			},
+			"vectorSettings":
+			{
+			},
+			"bIsVisible": true,
+			"bIsInteractable": true,
+			"bIsCompletelyLocked": false,
+			"guid": "8B266A164396BC7087584B82C32FC589",
+			"parent": "BB5CC1A54F744D575190A1A36ACF41A0",
+			"childIndex": 0,
+			"attachment": "Root",
+			"attachmentCharacterIndex": 0,
+			"bIsFoldedOut": true,
+			"customEvents":
+			{
+				"outEvents":
+				{
+					"OnPossessCompleted":
+					{
+						"eventId": "OnPossessCompleted",
+						"eventNames": [],
+						"eventValues": []
+					}
+				},
+				"inEvents":
+				{
+					"SetVisibility":
+					{
+						"eventId": "SetVisibility",
+						"eventNames": [],
+						"eventValues": []
+					},
+					"SetOptionValue":
+					{
+						"eventId": "SetOptionValue",
+						"eventNames": [],
+						"eventValues": []
+					},
+					"Possess":
+					{
+						"eventId": "Possess",
+						"eventNames": [
+							""
+						],
+						"eventValues": [
+							""
+						]
+					},
+					"UnPossess":
+					{
+						"eventId": "UnPossess",
+						"eventNames": [],
+						"eventValues": []
+					}
+				}
+			}
+		},
+		{
+			"iD": "Plane",
+			"label": "DialogueOptions",
+			"position":
+			{
+				"x": 65.409782409667969,
+				"y": 45.955619812011719,
+				"z": 4.9918889999389648e-06
+			},
+			"rotation":
+			{
+				"pitch": 0,
+				"yaw": -89.999946594238281,
+				"roll": -89.899116516113281
+			},
+			"scale":
+			{
+				"x": 0.29305848479270935,
+				"y": 0.73000001907348633,
+				"z": 0.25
+			},
+			"floatSettings":
+			{
+				"Specular": 0.05000000074505806,
+				"Roughness": 1,
+				"Metallic": 0,
+				"Texture Tiling": 1
+			},
+			"intSettings":
+			{
+				"Material Type": 0
+			},
+			"colorSettings":
+			{
+				"Color":
+				{
+					"r": 0.92831552028656006,
+					"g": 1,
+					"b": 0.59709042310714722,
+					"a": 0.29200002551078796
+				},
+				"Emission":
+				{
+					"r": 0,
+					"g": 0,
+					"b": 0,
+					"a": 1
+				}
+			},
+			"boolSettings":
+			{
+				"EnableCollision": true,
+				"UseTriplanarMapping": true
+			},
+			"stringSettings":
+			{
+				"Texture Override URL": "",
+				"MaterialOverride": ""
+			},
+			"vectorSettings":
+			{
+			},
+			"bIsVisible": false,
+			"bIsInteractable": false,
+			"bIsCompletelyLocked": false,
+			"guid": "38E5F8444230CC63787C2487A163C857",
+			"parent": "8B266A164396BC7087584B82C32FC589",
+			"childIndex": 0,
+			"attachment": "None",
+			"attachmentCharacterIndex": 0,
+			"bIsFoldedOut": false,
+			"customEvents":
+			{
+				"outEvents":
+				{
+				},
+				"inEvents":
+				{
+					"SetVisibility":
+					{
+						"eventId": "SetVisibility",
+						"eventNames": [],
+						"eventValues": []
+					},
+					"SetOptionValue":
+					{
+						"eventId": "SetOptionValue",
+						"eventNames": [],
+						"eventValues": []
+					}
+				}
+			}
+		},
+		{
+			"iD": "Plane",
+			"label": "DialogueOption_001",
+			"position":
+			{
+				"x": 7.8101074905134737e-05,
+				"y": 31.74323844909668,
+				"z": 0.05844879150390625
+			},
+			"rotation":
+			{
+				"pitch": 6.8301887949928641e-06,
+				"yaw": 1.7075479945560801e-06,
+				"roll": 6.8301906139822677e-06
+			},
+			"scale":
+			{
+				"x": 1.1269999742507935,
+				"y": 0.078734375536441803,
+				"z": 1
+			},
+			"floatSettings":
+			{
+				"Specular": 0.05000000074505806,
+				"Roughness": 1,
+				"Metallic": 0,
+				"Texture Tiling": 1
+			},
+			"intSettings":
+			{
+				"Material Type": 0
+			},
+			"colorSettings":
+			{
+				"Color":
+				{
+					"r": 1,
+					"g": 1,
+					"b": 0,
+					"a": 1
+				},
+				"Emission":
+				{
+					"r": 0,
+					"g": 0,
+					"b": 0,
+					"a": 1
+				}
+			},
+			"boolSettings":
+			{
+				"EnableCollision": true,
+				"UseTriplanarMapping": true
+			},
+			"stringSettings":
+			{
+				"Texture Override URL": "",
+				"MaterialOverride": ""
+			},
+			"vectorSettings":
+			{
+			},
+			"bIsVisible": false,
+			"bIsInteractable": false,
+			"bIsCompletelyLocked": false,
+			"guid": "F57CCA0E4EBC662E2C3E3A98A04C125E",
+			"parent": "38E5F8444230CC63787C2487A163C857",
+			"childIndex": 0,
+			"attachment": "None",
+			"attachmentCharacterIndex": 0,
+			"bIsFoldedOut": false,
+			"customEvents":
+			{
+				"outEvents":
+				{
+				},
+				"inEvents":
+				{
+					"SetVisibility":
+					{
+						"eventId": "SetVisibility",
+						"eventNames": [
+							"dialogue_option_vis_001"
+						],
+						"eventValues": [
+							""
+						]
+					},
+					"SetOptionValue":
+					{
+						"eventId": "SetOptionValue",
+						"eventNames": [
+							"dialogue_option_color_001"
+						],
+						"eventValues": [
+							""
+						]
+					}
+				}
+			}
+		},
+		{
+			"iD": "Speechbubble",
+			"label": "DialogueOptionText_001",
+			"position":
+			{
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"rotation":
+			{
+				"pitch": 180,
+				"yaw": 0,
+				"roll": 89.999984741210938
+			},
+			"scale":
+			{
+				"x": 3.4122874736785889,
+				"y": 17.398534774780273,
+				"z": 4
+			},
+			"floatSettings":
+			{
+				"BubbleWidth": 0,
+				"BubbleHeight": 0,
+				"Font Size": 3,
+				"TextOffsetVertical": 0,
+				"TextOffsetHorizontal": 0
+			},
+			"intSettings":
+			{
+				"Type": 0,
+				"Alignment": 0
+			},
+			"colorSettings":
+			{
+				"backgroundColor":
+				{
+					"r": 0.49803900718688965,
+					"g": 0.49803900718688965,
+					"b": 0.49803900718688965,
+					"a": 1
+				},
+				"TextColor":
+				{
+					"r": 0,
+					"g": 0,
+					"b": 0,
+					"a": 1
+				}
+			},
+			"boolSettings":
+			{
+				"AlignToCamera": false
+			},
+			"stringSettings":
+			{
+				"Text": "Hey, how are you?"
+			},
+			"vectorSettings":
+			{
+			},
+			"bIsVisible": false,
+			"bIsInteractable": false,
+			"bIsCompletelyLocked": false,
+			"guid": "8E2DB2364FFCBE73DA1BAABA42673E7F",
+			"parent": "F57CCA0E4EBC662E2C3E3A98A04C125E",
+			"childIndex": 0,
+			"attachment": "None",
+			"attachmentCharacterIndex": 0,
+			"bIsFoldedOut": false,
+			"customEvents":
+			{
+				"outEvents":
+				{
+				},
+				"inEvents":
+				{
+					"SetVisibility":
+					{
+						"eventId": "SetVisibility",
+						"eventNames": [
+							"dialogue_option_vis_001"
+						],
+						"eventValues": [
+							""
+						]
+					},
+					"SetOptionValue":
+					{
+						"eventId": "SetOptionValue",
+						"eventNames": [],
+						"eventValues": []
+					},
+					"ChangeText":
+					{
+						"eventId": "ChangeText",
+						"eventNames": [
+							"dialogue_option_text_001"
+						],
+						"eventValues": [
+							""
+						]
+					}
+				}
+			}
+		},
+		{
+			"iD": "Condition",
+			"label": "MenuItemHoverCondition_001",
+			"position":
+			{
+				"x": 11.771559715270996,
+				"y": -2729.6298828125,
+				"z": -1264.8265380859375
+			},
+			"rotation":
+			{
+				"pitch": 0,
+				"yaw": 3.002176415453639e-13,
+				"roll": 89.999977111816406
+			},
+			"scale":
+			{
+				"x": 3.4122884273529053,
+				"y": 17.398534774780273,
+				"z": 4
+			},
+			"floatSettings":
+			{
+			},
+			"intSettings":
+			{
+			},
+			"colorSettings":
+			{
+			},
+			"boolSettings":
+			{
+				"HideDuringPlayMode": true
+			},
+			"stringSettings":
+			{
+				"valueA": "2",
+				"valueB": "1",
+				"Condition": "=="
+			},
+			"vectorSettings":
+			{
+			},
+			"bIsVisible": true,
+			"bIsInteractable": false,
+			"bIsCompletelyLocked": false,
+			"guid": "30F3730C4EB587DB5BCBADAC09E73FE3",
+			"parent": "F57CCA0E4EBC662E2C3E3A98A04C125E",
+			"childIndex": 1,
+			"attachment": "None",
+			"attachmentCharacterIndex": 0,
+			"bIsFoldedOut": false,
+			"customEvents":
+			{
+				"outEvents":
+				{
+					"OnConditionTrue":
+					{
+						"eventId": "OnConditionTrue",
+						"eventNames": [
+							"dialogue_option_color_001"
+						],
+						"eventValues": [
+							"Color;r=0,g=1,b=0"
+						]
+					},
+					"OnConditionFalse":
+					{
+						"eventId": "OnConditionFalse",
+						"eventNames": [
+							"dialogue_option_color_001"
+						],
+						"eventValues": [
+							"Color;r=1,g=1,b=0"
+						]
+					},
+					"OnConditionTrueReturnA":
+					{
+						"eventId": "OnConditionTrueReturnA",
+						"eventNames": [],
+						"eventValues": []
+					},
+					"OnConditionFalseReturnA":
+					{
+						"eventId": "OnConditionFalseReturnA",
+						"eventNames": [],
+						"eventValues": []
+					},
+					"OnConditionTrueReturnB":
+					{
+						"eventId": "OnConditionTrueReturnB",
+						"eventNames": [],
+						"eventValues": []
+					},
+					"OnConditionFalseReturnB":
+					{
+						"eventId": "OnConditionFalseReturnB",
+						"eventNames": [],
+						"eventValues": []
+					}
+				},
+				"inEvents":
+				{
+					"SetVisibility":
+					{
+						"eventId": "SetVisibility",
+						"eventNames": [],
+						"eventValues": []
+					},
+					"SetOptionValue":
+					{
+						"eventId": "SetOptionValue",
+						"eventNames": [],
+						"eventValues": []
+					},
+					"SetValueA":
+					{
+						"eventId": "SetValueA",
+						"eventNames": [],
+						"eventValues": []
+					},
+					"SetValueB":
+					{
+						"eventId": "SetValueB",
+						"eventNames": [],
+						"eventValues": []
+					},
+					"SetValueAAndRun":
+					{
+						"eventId": "SetValueAAndRun",
+						"eventNames": [
+							"hover_menu_item"
+						],
+						"eventValues": [
+							""
+						]
+					},
+					"SetValueBAndRun":
+					{
+						"eventId": "SetValueBAndRun",
+						"eventNames": [],
+						"eventValues": []
+					},
+					"Run":
+					{
+						"eventId": "Run",
+						"eventNames": [],
+						"eventValues": []
+					}
+				}
+			}
+		},
+		{
+			"iD": "Plane",
+			"label": "DialogueOption_002",
+			"position":
+			{
+				"x": 8.4609499026555568e-05,
+				"y": 19.032342910766602,
+				"z": 0.05829620361328125
+			},
+			"rotation":
+			{
+				"pitch": 6.8301887949928641e-06,
+				"yaw": 1.707553337837453e-06,
+				"roll": 9.9037752079311758e-05
+			},
+			"scale":
+			{
+				"x": 1.1269999742507935,
+				"y": 0.078734368085861206,
+				"z": 1
+			},
+			"floatSettings":
+			{
+				"Specular": 0.05000000074505806,
+				"Roughness": 1,
+				"Metallic": 0,
+				"Texture Tiling": 1
+			},
+			"intSettings":
+			{
+				"Material Type": 0
+			},
+			"colorSettings":
+			{
+				"Color":
+				{
+					"r": 0,
+					"g": 1,
+					"b": 0,
+					"a": 1
+				},
+				"Emission":
+				{
+					"r": 0,
+					"g": 0,
+					"b": 0,
+					"a": 1
+				}
+			},
+			"boolSettings":
+			{
+				"EnableCollision": true,
+				"UseTriplanarMapping": true
+			},
+			"stringSettings":
+			{
+				"Texture Override URL": "",
+				"MaterialOverride": ""
+			},
+			"vectorSettings":
+			{
+			},
+			"bIsVisible": false,
+			"bIsInteractable": false,
+			"bIsCompletelyLocked": false,
+			"guid": "64FBD8824104E5576D8057B4427D72B4",
+			"parent": "38E5F8444230CC63787C2487A163C857",
+			"childIndex": 1,
+			"attachment": "None",
+			"attachmentCharacterIndex": 0,
+			"bIsFoldedOut": false,
+			"customEvents":
+			{
+				"outEvents":
+				{
+				},
+				"inEvents":
+				{
+					"SetVisibility":
+					{
+						"eventId": "SetVisibility",
+						"eventNames": [
+							"dialogue_option_vis_002"
+						],
+						"eventValues": [
+							""
+						]
+					},
+					"SetOptionValue":
+					{
+						"eventId": "SetOptionValue",
+						"eventNames": [
+							"dialogue_option_color_002"
+						],
+						"eventValues": [
+							""
+						]
+					}
+				}
+			}
+		},
+		{
+			"iD": "Speechbubble",
+			"label": "DialogueOptionText_002",
+			"position":
+			{
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"rotation":
+			{
+				"pitch": 180,
+				"yaw": -2.5444436054650188e-12,
+				"roll": 89.9998779296875
+			},
+			"scale":
+			{
+				"x": 3.4122872352600098,
+				"y": 17.398534774780273,
+				"z": 4
+			},
+			"floatSettings":
+			{
+				"BubbleWidth": 0,
+				"BubbleHeight": 0,
+				"Font Size": 3,
+				"TextOffsetVertical": 0,
+				"TextOffsetHorizontal": 0
+			},
+			"intSettings":
+			{
+				"Type": 0,
+				"Alignment": 0
+			},
+			"colorSettings":
+			{
+				"backgroundColor":
+				{
+					"r": 0.49803900718688965,
+					"g": 0.49803900718688965,
+					"b": 0.49803900718688965,
+					"a": 1
+				},
+				"TextColor":
+				{
+					"r": 0,
+					"g": 0,
+					"b": 0,
+					"a": 1
+				}
+			},
+			"boolSettings":
+			{
+				"AlignToCamera": false
+			},
+			"stringSettings":
+			{
+				"Text": "Bye"
+			},
+			"vectorSettings":
+			{
+			},
+			"bIsVisible": false,
+			"bIsInteractable": false,
+			"bIsCompletelyLocked": false,
+			"guid": "334D2BF54A77F5033C890E80FE3457E8",
+			"parent": "64FBD8824104E5576D8057B4427D72B4",
+			"childIndex": 0,
+			"attachment": "None",
+			"attachmentCharacterIndex": 0,
+			"bIsFoldedOut": false,
+			"customEvents":
+			{
+				"outEvents":
+				{
+				},
+				"inEvents":
+				{
+					"SetVisibility":
+					{
+						"eventId": "SetVisibility",
+						"eventNames": [
+							"dialogue_option_vis_002"
+						],
+						"eventValues": [
+							""
+						]
+					},
+					"SetOptionValue":
+					{
+						"eventId": "SetOptionValue",
+						"eventNames": [],
+						"eventValues": []
+					},
+					"ChangeText":
+					{
+						"eventId": "ChangeText",
+						"eventNames": [
+							"dialogue_option_text_002"
+						],
+						"eventValues": [
+							""
+						]
+					}
+				}
+			}
+		},
+		{
+			"iD": "Condition",
+			"label": "MenuItemHoverCondition_002",
+			"position":
+			{
+				"x": 11.771396636962891,
+				"y": -2568.17529296875,
+				"z": -1264.8271484375
+			},
+			"rotation":
+			{
+				"pitch": 0,
+				"yaw": 0,
+				"roll": 89.999839782714844
+			},
+			"scale":
+			{
+				"x": 3.4122881889343262,
+				"y": 17.398534774780273,
+				"z": 4
+			},
+			"floatSettings":
+			{
+			},
+			"intSettings":
+			{
+			},
+			"colorSettings":
+			{
+			},
+			"boolSettings":
+			{
+				"HideDuringPlayMode": true
+			},
+			"stringSettings":
+			{
+				"valueA": "2",
+				"valueB": "2",
+				"Condition": "=="
+			},
+			"vectorSettings":
+			{
+			},
+			"bIsVisible": true,
+			"bIsInteractable": false,
+			"bIsCompletelyLocked": false,
+			"guid": "2077677B499A7BC73D2045A301FC969E",
+			"parent": "64FBD8824104E5576D8057B4427D72B4",
+			"childIndex": 1,
+			"attachment": "None",
+			"attachmentCharacterIndex": 0,
+			"bIsFoldedOut": false,
+			"customEvents":
+			{
+				"outEvents":
+				{
+					"OnConditionTrue":
+					{
+						"eventId": "OnConditionTrue",
+						"eventNames": [
+							"dialogue_option_color_002"
+						],
+						"eventValues": [
+							"Color;r=0,g=1,b=0"
+						]
+					},
+					"OnConditionFalse":
+					{
+						"eventId": "OnConditionFalse",
+						"eventNames": [
+							"dialogue_option_color_002"
+						],
+						"eventValues": [
+							"Color;r=1,g=1,b=0"
+						]
+					},
+					"OnConditionTrueReturnA":
+					{
+						"eventId": "OnConditionTrueReturnA",
+						"eventNames": [],
+						"eventValues": []
+					},
+					"OnConditionFalseReturnA":
+					{
+						"eventId": "OnConditionFalseReturnA",
+						"eventNames": [],
+						"eventValues": []
+					},
+					"OnConditionTrueReturnB":
+					{
+						"eventId": "OnConditionTrueReturnB",
+						"eventNames": [],
+						"eventValues": []
+					},
+					"OnConditionFalseReturnB":
+					{
+						"eventId": "OnConditionFalseReturnB",
+						"eventNames": [],
+						"eventValues": []
+					}
+				},
+				"inEvents":
+				{
+					"SetVisibility":
+					{
+						"eventId": "SetVisibility",
+						"eventNames": [],
+						"eventValues": []
+					},
+					"SetOptionValue":
+					{
+						"eventId": "SetOptionValue",
+						"eventNames": [],
+						"eventValues": []
+					},
+					"SetValueA":
+					{
+						"eventId": "SetValueA",
+						"eventNames": [],
+						"eventValues": []
+					},
+					"SetValueB":
+					{
+						"eventId": "SetValueB",
+						"eventNames": [],
+						"eventValues": []
+					},
+					"SetValueAAndRun":
+					{
+						"eventId": "SetValueAAndRun",
+						"eventNames": [
+							"hover_menu_item"
+						],
+						"eventValues": [
+							""
+						]
+					},
+					"SetValueBAndRun":
+					{
+						"eventId": "SetValueBAndRun",
+						"eventNames": [],
+						"eventValues": []
+					},
+					"Run":
+					{
+						"eventId": "Run",
+						"eventNames": [],
+						"eventValues": []
+					}
+				}
+			}
+		},
+		{
+			"iD": "Plane",
+			"label": "DialogueOption_003",
+			"position":
+			{
+				"x": 8.2982391177210957e-05,
+				"y": 6.3209919929504395,
+				"z": 0.058290481567382812
+			},
+			"rotation":
+			{
+				"pitch": 6.8301887949928641e-06,
+				"yaw": 1.707553337837453e-06,
+				"roll": 9.9037752079311758e-05
+			},
+			"scale":
+			{
+				"x": 1.1269999742507935,
+				"y": 0.078734345734119415,
+				"z": 1
+			},
+			"floatSettings":
+			{
+				"Specular": 0.05000000074505806,
+				"Roughness": 1,
+				"Metallic": 0,
+				"Texture Tiling": 1
+			},
+			"intSettings":
+			{
+				"Material Type": 0
+			},
+			"colorSettings":
+			{
+				"Color":
+				{
+					"r": 1,
+					"g": 1,
+					"b": 0,
+					"a": 1
+				},
+				"Emission":
+				{
+					"r": 0,
+					"g": 0,
+					"b": 0,
+					"a": 1
+				}
+			},
+			"boolSettings":
+			{
+				"EnableCollision": true,
+				"UseTriplanarMapping": true
+			},
+			"stringSettings":
+			{
+				"Texture Override URL": "",
+				"MaterialOverride": ""
+			},
+			"vectorSettings":
+			{
+			},
+			"bIsVisible": false,
+			"bIsInteractable": false,
+			"bIsCompletelyLocked": false,
+			"guid": "5B761B724E27960E6EECEF9A9DDE82BA",
+			"parent": "38E5F8444230CC63787C2487A163C857",
+			"childIndex": 2,
+			"attachment": "None",
+			"attachmentCharacterIndex": 0,
+			"bIsFoldedOut": false,
+			"customEvents":
+			{
+				"outEvents":
+				{
+				},
+				"inEvents":
+				{
+					"SetVisibility":
+					{
+						"eventId": "SetVisibility",
+						"eventNames": [
+							"dialogue_option_vis_003"
+						],
+						"eventValues": [
+							""
+						]
+					},
+					"SetOptionValue":
+					{
+						"eventId": "SetOptionValue",
+						"eventNames": [
+							"dialogue_option_color_003"
+						],
+						"eventValues": [
+							""
+						]
+					}
+				}
+			}
+		},
+		{
+			"iD": "Speechbubble",
+			"label": "DialogueOptionText_003",
+			"position":
+			{
+				"x": -3.2586329468120567e-11,
+				"y": 0.00024222275533247739,
+				"z": 2.4982575268950313e-05
+			},
+			"rotation":
+			{
+				"pitch": 180,
+				"yaw": -2.442665861246418e-12,
+				"roll": 89.999870300292969
+			},
+			"scale":
+			{
+				"x": 3.4122872352600098,
+				"y": 17.398534774780273,
+				"z": 4
+			},
+			"floatSettings":
+			{
+				"BubbleWidth": 0,
+				"BubbleHeight": 0,
+				"Font Size": 3,
+				"TextOffsetVertical": 0,
+				"TextOffsetHorizontal": 0
+			},
+			"intSettings":
+			{
+				"Type": 0,
+				"Alignment": 0
+			},
+			"colorSettings":
+			{
+				"backgroundColor":
+				{
+					"r": 0.49803900718688965,
+					"g": 0.49803900718688965,
+					"b": 0.49803900718688965,
+					"a": 1
+				},
+				"TextColor":
+				{
+					"r": 0,
+					"g": 0,
+					"b": 0,
+					"a": 1
+				}
+			},
+			"boolSettings":
+			{
+				"AlignToCamera": false
+			},
+			"stringSettings":
+			{
+				"Text": "Debug: reset"
+			},
+			"vectorSettings":
+			{
+			},
+			"bIsVisible": false,
+			"bIsInteractable": false,
+			"bIsCompletelyLocked": false,
+			"guid": "CF75E9C4444053FAFECB359D1AFCE88C",
+			"parent": "5B761B724E27960E6EECEF9A9DDE82BA",
+			"childIndex": 0,
+			"attachment": "None",
+			"attachmentCharacterIndex": 0,
+			"bIsFoldedOut": false,
+			"customEvents":
+			{
+				"outEvents":
+				{
+				},
+				"inEvents":
+				{
+					"SetVisibility":
+					{
+						"eventId": "SetVisibility",
+						"eventNames": [
+							"dialogue_option_vis_003"
+						],
+						"eventValues": [
+							""
+						]
+					},
+					"SetOptionValue":
+					{
+						"eventId": "SetOptionValue",
+						"eventNames": [],
+						"eventValues": []
+					},
+					"ChangeText":
+					{
+						"eventId": "ChangeText",
+						"eventNames": [
+							"dialogue_option_text_003"
+						],
+						"eventValues": [
+							""
+						]
+					}
+				}
+			}
+		},
+		{
+			"iD": "Condition",
+			"label": "MenuItemHoverCondition_003",
+			"position":
+			{
+				"x": 11.771402359008789,
+				"y": -2406.72802734375,
+				"z": -1264.826416015625
+			},
+			"rotation":
+			{
+				"pitch": 0,
+				"yaw": 0,
+				"roll": 89.99981689453125
+			},
+			"scale":
+			{
+				"x": 3.4122898578643799,
+				"y": 17.398538589477539,
+				"z": 4
+			},
+			"floatSettings":
+			{
+			},
+			"intSettings":
+			{
+			},
+			"colorSettings":
+			{
+			},
+			"boolSettings":
+			{
+				"HideDuringPlayMode": true
+			},
+			"stringSettings":
+			{
+				"valueA": "2",
+				"valueB": "3",
+				"Condition": "=="
+			},
+			"vectorSettings":
+			{
+			},
+			"bIsVisible": true,
+			"bIsInteractable": false,
+			"bIsCompletelyLocked": false,
+			"guid": "1EF0FFA64EE9B46883A0A8BCEBC8671F",
+			"parent": "5B761B724E27960E6EECEF9A9DDE82BA",
+			"childIndex": 1,
+			"attachment": "None",
+			"attachmentCharacterIndex": 0,
+			"bIsFoldedOut": false,
+			"customEvents":
+			{
+				"outEvents":
+				{
+					"OnConditionTrue":
+					{
+						"eventId": "OnConditionTrue",
+						"eventNames": [
+							"dialogue_option_color_003"
+						],
+						"eventValues": [
+							"Color;r=0,g=1,b=0"
+						]
+					},
+					"OnConditionFalse":
+					{
+						"eventId": "OnConditionFalse",
+						"eventNames": [
+							"dialogue_option_color_003"
+						],
+						"eventValues": [
+							"Color;r=1,g=1,b=0"
+						]
+					},
+					"OnConditionTrueReturnA":
+					{
+						"eventId": "OnConditionTrueReturnA",
+						"eventNames": [],
+						"eventValues": []
+					},
+					"OnConditionFalseReturnA":
+					{
+						"eventId": "OnConditionFalseReturnA",
+						"eventNames": [],
+						"eventValues": []
+					},
+					"OnConditionTrueReturnB":
+					{
+						"eventId": "OnConditionTrueReturnB",
+						"eventNames": [],
+						"eventValues": []
+					},
+					"OnConditionFalseReturnB":
+					{
+						"eventId": "OnConditionFalseReturnB",
+						"eventNames": [],
+						"eventValues": []
+					}
+				},
+				"inEvents":
+				{
+					"SetVisibility":
+					{
+						"eventId": "SetVisibility",
+						"eventNames": [],
+						"eventValues": []
+					},
+					"SetOptionValue":
+					{
+						"eventId": "SetOptionValue",
+						"eventNames": [],
+						"eventValues": []
+					},
+					"SetValueA":
+					{
+						"eventId": "SetValueA",
+						"eventNames": [],
+						"eventValues": []
+					},
+					"SetValueB":
+					{
+						"eventId": "SetValueB",
+						"eventNames": [],
+						"eventValues": []
+					},
+					"SetValueAAndRun":
+					{
+						"eventId": "SetValueAAndRun",
+						"eventNames": [
+							"hover_menu_item"
+						],
+						"eventValues": [
+							""
+						]
+					},
+					"SetValueBAndRun":
+					{
+						"eventId": "SetValueBAndRun",
+						"eventNames": [],
+						"eventValues": []
+					},
+					"Run":
+					{
+						"eventId": "Run",
+						"eventNames": [],
+						"eventValues": []
+					}
+				}
+			}
+		},
+		{
+			"iD": "Plane",
+			"label": "DialogueOption_004",
+			"position":
+			{
+				"x": 9.5999232144095004e-05,
+				"y": -6.389955997467041,
+				"z": 0.058055877685546875
+			},
+			"rotation":
+			{
+				"pitch": 6.8301887949928641e-06,
+				"yaw": 1.707553337837453e-06,
+				"roll": 9.9037752079311758e-05
+			},
+			"scale":
+			{
+				"x": 1.1269999742507935,
+				"y": 0.078734353184700012,
+				"z": 1
+			},
+			"floatSettings":
+			{
+				"Specular": 0.05000000074505806,
+				"Roughness": 1,
+				"Metallic": 0,
+				"Texture Tiling": 1
+			},
+			"intSettings":
+			{
+				"Material Type": 0
+			},
+			"colorSettings":
+			{
+				"Color":
+				{
+					"r": 1,
+					"g": 1,
+					"b": 0,
+					"a": 1
+				},
+				"Emission":
+				{
+					"r": 0,
+					"g": 0,
+					"b": 0,
+					"a": 1
+				}
+			},
+			"boolSettings":
+			{
+				"EnableCollision": true,
+				"UseTriplanarMapping": true
+			},
+			"stringSettings":
+			{
+				"Texture Override URL": "",
+				"MaterialOverride": ""
+			},
+			"vectorSettings":
+			{
+			},
+			"bIsVisible": false,
+			"bIsInteractable": false,
+			"bIsCompletelyLocked": false,
+			"guid": "93966A214C94BCDEEA65C6820C42CB79",
+			"parent": "38E5F8444230CC63787C2487A163C857",
+			"childIndex": 3,
+			"attachment": "None",
+			"attachmentCharacterIndex": 0,
+			"bIsFoldedOut": false,
+			"customEvents":
+			{
+				"outEvents":
+				{
+				},
+				"inEvents":
+				{
+					"SetVisibility":
+					{
+						"eventId": "SetVisibility",
+						"eventNames": [
+							"dialogue_option_vis_004"
+						],
+						"eventValues": [
+							""
+						]
+					},
+					"SetOptionValue":
+					{
+						"eventId": "SetOptionValue",
+						"eventNames": [
+							"dialogue_option_color_004"
+						],
+						"eventValues": [
+							""
+						]
+					}
+				}
+			}
+		},
+		{
+			"iD": "Speechbubble",
+			"label": "DialogueOptionText_004",
+			"position":
+			{
+				"x": -3.2586325998673615e-11,
+				"y": 0.00024222278443630785,
+				"z": 2.4982575268950313e-05
+			},
+			"rotation":
+			{
+				"pitch": 180,
+				"yaw": -2.442665861246418e-12,
+				"roll": 89.999870300292969
+			},
+			"scale":
+			{
+				"x": 3.4122872352600098,
+				"y": 17.398534774780273,
+				"z": 4
+			},
+			"floatSettings":
+			{
+				"BubbleWidth": 0,
+				"BubbleHeight": 0,
+				"Font Size": 3,
+				"TextOffsetVertical": 0,
+				"TextOffsetHorizontal": 0
+			},
+			"intSettings":
+			{
+				"Type": 0,
+				"Alignment": 0
+			},
+			"colorSettings":
+			{
+				"backgroundColor":
+				{
+					"r": 0.49803900718688965,
+					"g": 0.49803900718688965,
+					"b": 0.49803900718688965,
+					"a": 1
+				},
+				"TextColor":
+				{
+					"r": 0,
+					"g": 0,
+					"b": 0,
+					"a": 1
+				}
+			},
+			"boolSettings":
+			{
+				"AlignToCamera": false
+			},
+			"stringSettings":
+			{
+				"Text": "Bye Bye!"
+			},
+			"vectorSettings":
+			{
+			},
+			"bIsVisible": false,
+			"bIsInteractable": false,
+			"bIsCompletelyLocked": false,
+			"guid": "94D3A5904648C8D3521CEC9E26115CAF",
+			"parent": "93966A214C94BCDEEA65C6820C42CB79",
+			"childIndex": 0,
+			"attachment": "None",
+			"attachmentCharacterIndex": 0,
+			"bIsFoldedOut": false,
+			"customEvents":
+			{
+				"outEvents":
+				{
+				},
+				"inEvents":
+				{
+					"SetVisibility":
+					{
+						"eventId": "SetVisibility",
+						"eventNames": [
+							"dialogue_option_vis_004"
+						],
+						"eventValues": [
+							""
+						]
+					},
+					"SetOptionValue":
+					{
+						"eventId": "SetOptionValue",
+						"eventNames": [],
+						"eventValues": []
+					},
+					"ChangeText":
+					{
+						"eventId": "ChangeText",
+						"eventNames": [
+							"dialogue_option_text_004"
+						],
+						"eventValues": [
+							""
+						]
+					}
+				}
+			}
+		},
+		{
+			"iD": "Condition",
+			"label": "MenuItemHoverCondition_004",
+			"position":
+			{
+				"x": 11.771400451660156,
+				"y": -2245.286376953125,
+				"z": -1264.82568359375
+			},
+			"rotation":
+			{
+				"pitch": 0,
+				"yaw": 0,
+				"roll": 89.99981689453125
+			},
+			"scale":
+			{
+				"x": 3.4122893810272217,
+				"y": 17.398540496826172,
+				"z": 4
+			},
+			"floatSettings":
+			{
+			},
+			"intSettings":
+			{
+			},
+			"colorSettings":
+			{
+			},
+			"boolSettings":
+			{
+				"HideDuringPlayMode": true
+			},
+			"stringSettings":
+			{
+				"valueA": "2",
+				"valueB": "4",
+				"Condition": "=="
+			},
+			"vectorSettings":
+			{
+			},
+			"bIsVisible": true,
+			"bIsInteractable": false,
+			"bIsCompletelyLocked": false,
+			"guid": "BE5A18274D20DC3878C9D6A40DE566BF",
+			"parent": "93966A214C94BCDEEA65C6820C42CB79",
+			"childIndex": 1,
+			"attachment": "None",
+			"attachmentCharacterIndex": 0,
+			"bIsFoldedOut": false,
+			"customEvents":
+			{
+				"outEvents":
+				{
+					"OnConditionTrue":
+					{
+						"eventId": "OnConditionTrue",
+						"eventNames": [
+							"dialogue_option_color_004"
+						],
+						"eventValues": [
+							"Color;r=0,g=1,b=0"
+						]
+					},
+					"OnConditionFalse":
+					{
+						"eventId": "OnConditionFalse",
+						"eventNames": [
+							"dialogue_option_color_004"
+						],
+						"eventValues": [
+							"Color;r=1,g=1,b=0"
+						]
+					},
+					"OnConditionTrueReturnA":
+					{
+						"eventId": "OnConditionTrueReturnA",
+						"eventNames": [],
+						"eventValues": []
+					},
+					"OnConditionFalseReturnA":
+					{
+						"eventId": "OnConditionFalseReturnA",
+						"eventNames": [],
+						"eventValues": []
+					},
+					"OnConditionTrueReturnB":
+					{
+						"eventId": "OnConditionTrueReturnB",
+						"eventNames": [],
+						"eventValues": []
+					},
+					"OnConditionFalseReturnB":
+					{
+						"eventId": "OnConditionFalseReturnB",
+						"eventNames": [],
+						"eventValues": []
+					}
+				},
+				"inEvents":
+				{
+					"SetVisibility":
+					{
+						"eventId": "SetVisibility",
+						"eventNames": [],
+						"eventValues": []
+					},
+					"SetOptionValue":
+					{
+						"eventId": "SetOptionValue",
+						"eventNames": [],
+						"eventValues": []
+					},
+					"SetValueA":
+					{
+						"eventId": "SetValueA",
+						"eventNames": [],
+						"eventValues": []
+					},
+					"SetValueB":
+					{
+						"eventId": "SetValueB",
+						"eventNames": [],
+						"eventValues": []
+					},
+					"SetValueAAndRun":
+					{
+						"eventId": "SetValueAAndRun",
+						"eventNames": [
+							"hover_menu_item"
+						],
+						"eventValues": [
+							""
+						]
+					},
+					"SetValueBAndRun":
+					{
+						"eventId": "SetValueBAndRun",
+						"eventNames": [],
+						"eventValues": []
+					},
+					"Run":
+					{
+						"eventId": "Run",
+						"eventNames": [],
+						"eventValues": []
+					}
+				}
+			}
+		},
+		{
+			"iD": "Plane",
+			"label": "DialogueOption_005",
+			"position":
+			{
+				"x": -5.2067382057430223e-05,
+				"y": -19.100996017456055,
+				"z": 0.05826568603515625
+			},
+			"rotation":
+			{
+				"pitch": 6.8301887949928641e-06,
+				"yaw": 1.707553337837453e-06,
+				"roll": 9.9037752079311758e-05
+			},
+			"scale":
+			{
+				"x": 1.1269999742507935,
+				"y": 0.078734353184700012,
+				"z": 1
+			},
+			"floatSettings":
+			{
+				"Specular": 0.05000000074505806,
+				"Roughness": 1,
+				"Metallic": 0,
+				"Texture Tiling": 1
+			},
+			"intSettings":
+			{
+				"Material Type": 0
+			},
+			"colorSettings":
+			{
+				"Color":
+				{
+					"r": 1,
+					"g": 1,
+					"b": 0,
+					"a": 1
+				},
+				"Emission":
+				{
+					"r": 0,
+					"g": 0,
+					"b": 0,
+					"a": 1
+				}
+			},
+			"boolSettings":
+			{
+				"EnableCollision": true,
+				"UseTriplanarMapping": true
+			},
+			"stringSettings":
+			{
+				"Texture Override URL": "",
+				"MaterialOverride": ""
+			},
+			"vectorSettings":
+			{
+			},
+			"bIsVisible": false,
+			"bIsInteractable": false,
+			"bIsCompletelyLocked": false,
+			"guid": "86CFE7F84F508973E07482BB4825CCB5",
+			"parent": "38E5F8444230CC63787C2487A163C857",
+			"childIndex": 4,
+			"attachment": "None",
+			"attachmentCharacterIndex": 0,
+			"bIsFoldedOut": false,
+			"customEvents":
+			{
+				"outEvents":
+				{
+				},
+				"inEvents":
+				{
+					"SetVisibility":
+					{
+						"eventId": "SetVisibility",
+						"eventNames": [
+							"dialogue_option_vis_005"
+						],
+						"eventValues": [
+							""
+						]
+					},
+					"SetOptionValue":
+					{
+						"eventId": "SetOptionValue",
+						"eventNames": [
+							"dialogue_option_color_005"
+						],
+						"eventValues": [
+							""
+						]
+					}
+				}
+			}
+		},
+		{
+			"iD": "Speechbubble",
+			"label": "DialogueOptionText_005",
+			"position":
+			{
+				"x": -6.2062525257866596e-12,
+				"y": -8.2284151714517861e-10,
+				"z": 0.00012207030522404239
+			},
+			"rotation":
+			{
+				"pitch": 6.8301887949928641e-06,
+				"yaw": -2.442665861246418e-12,
+				"roll": 89.999870300292969
+			},
+			"scale":
+			{
+				"x": 3.4122872352600098,
+				"y": 180,
+				"z": 4
+			},
+			"floatSettings":
+			{
+				"BubbleWidth": 0,
+				"BubbleHeight": 0,
+				"Font Size": 3,
+				"TextOffsetVertical": 0,
+				"TextOffsetHorizontal": 0
+			},
+			"intSettings":
+			{
+				"Type": 0,
+				"Alignment": 0
+			},
+			"colorSettings":
+			{
+				"backgroundColor":
+				{
+					"r": 0.49803900718688965,
+					"g": 0.49803900718688965,
+					"b": 0.49803900718688965,
+					"a": 1
+				},
+				"TextColor":
+				{
+					"r": 0,
+					"g": 0,
+					"b": 0,
+					"a": 1
+				}
+			},
+			"boolSettings":
+			{
+				"AlignToCamera": false
+			},
+			"stringSettings":
+			{
+				"Text": "Hello"
+			},
+			"vectorSettings":
+			{
+			},
+			"bIsVisible": false,
+			"bIsInteractable": false,
+			"bIsCompletelyLocked": false,
+			"guid": "446C518842FDF6953B7757B2A2E82E6E",
+			"parent": "86CFE7F84F508973E07482BB4825CCB5",
+			"childIndex": 0,
+			"attachment": "None",
+			"attachmentCharacterIndex": 0,
+			"bIsFoldedOut": false,
+			"customEvents":
+			{
+				"outEvents":
+				{
+				},
+				"inEvents":
+				{
+					"SetVisibility":
+					{
+						"eventId": "SetVisibility",
+						"eventNames": [
+							"dialogue_option_vis_005"
+						],
+						"eventValues": [
+							""
+						]
+					},
+					"SetOptionValue":
+					{
+						"eventId": "SetOptionValue",
+						"eventNames": [],
+						"eventValues": []
+					},
+					"ChangeText":
+					{
+						"eventId": "ChangeText",
+						"eventNames": [
+							"dialogue_option_text_005"
+						],
+						"eventValues": [
+							""
+						]
+					}
+				}
+			}
+		},
+		{
+			"iD": "Condition",
+			"label": "MenuItemHoverCondition_005",
+			"position":
+			{
+				"x": 11.771400451660156,
+				"y": -2083.8427734375,
+				"z": -1264.824951171875
+			},
+			"rotation":
+			{
+				"pitch": 0,
+				"yaw": 0,
+				"roll": 89.99981689453125
+			},
+			"scale":
+			{
+				"x": 3.4122893810272217,
+				"y": 17.398540496826172,
+				"z": 4
+			},
+			"floatSettings":
+			{
+			},
+			"intSettings":
+			{
+			},
+			"colorSettings":
+			{
+			},
+			"boolSettings":
+			{
+				"HideDuringPlayMode": true
+			},
+			"stringSettings":
+			{
+				"valueA": "2",
+				"valueB": "5",
+				"Condition": "=="
+			},
+			"vectorSettings":
+			{
+			},
+			"bIsVisible": true,
+			"bIsInteractable": false,
+			"bIsCompletelyLocked": false,
+			"guid": "38FF181646F7705CAA9CFA9C1FB5AA89",
+			"parent": "86CFE7F84F508973E07482BB4825CCB5",
+			"childIndex": 1,
+			"attachment": "None",
+			"attachmentCharacterIndex": 0,
+			"bIsFoldedOut": false,
+			"customEvents":
+			{
+				"outEvents":
+				{
+					"OnConditionTrue":
+					{
+						"eventId": "OnConditionTrue",
+						"eventNames": [
+							"dialogue_option_color_005"
+						],
+						"eventValues": [
+							"Color;r=0,g=1,b=0"
+						]
+					},
+					"OnConditionFalse":
+					{
+						"eventId": "OnConditionFalse",
+						"eventNames": [
+							"dialogue_option_color_005"
+						],
+						"eventValues": [
+							"Color;r=1,g=1,b=0"
+						]
+					},
+					"OnConditionTrueReturnA":
+					{
+						"eventId": "OnConditionTrueReturnA",
+						"eventNames": [],
+						"eventValues": []
+					},
+					"OnConditionFalseReturnA":
+					{
+						"eventId": "OnConditionFalseReturnA",
+						"eventNames": [],
+						"eventValues": []
+					},
+					"OnConditionTrueReturnB":
+					{
+						"eventId": "OnConditionTrueReturnB",
+						"eventNames": [],
+						"eventValues": []
+					},
+					"OnConditionFalseReturnB":
+					{
+						"eventId": "OnConditionFalseReturnB",
+						"eventNames": [],
+						"eventValues": []
+					}
+				},
+				"inEvents":
+				{
+					"SetVisibility":
+					{
+						"eventId": "SetVisibility",
+						"eventNames": [],
+						"eventValues": []
+					},
+					"SetOptionValue":
+					{
+						"eventId": "SetOptionValue",
+						"eventNames": [],
+						"eventValues": []
+					},
+					"SetValueA":
+					{
+						"eventId": "SetValueA",
+						"eventNames": [],
+						"eventValues": []
+					},
+					"SetValueB":
+					{
+						"eventId": "SetValueB",
+						"eventNames": [],
+						"eventValues": []
+					},
+					"SetValueAAndRun":
+					{
+						"eventId": "SetValueAAndRun",
+						"eventNames": [
+							"hover_menu_item"
+						],
+						"eventValues": [
+							""
+						]
+					},
+					"SetValueBAndRun":
+					{
+						"eventId": "SetValueBAndRun",
+						"eventNames": [],
+						"eventValues": []
+					},
+					"Run":
+					{
+						"eventId": "Run",
+						"eventNames": [],
+						"eventValues": []
+					}
+				}
+			}
+		},
+		{
+			"iD": "Plane",
+			"label": "DialogueOption_006",
+			"position":
+			{
+				"x": 0,
+				"y": -31.812000274658203,
+				"z": 0.057987213134765625
+			},
+			"rotation":
+			{
+				"pitch": 0,
+				"yaw": 0,
+				"roll": 0.00012635848543141037
+			},
+			"scale":
+			{
+				"x": 1.1269999742507935,
+				"y": 0.078734360635280609,
+				"z": 1
+			},
+			"floatSettings":
+			{
+				"Specular": 0.05000000074505806,
+				"Roughness": 1,
+				"Metallic": 0,
+				"Texture Tiling": 1
+			},
+			"intSettings":
+			{
+				"Material Type": 0
+			},
+			"colorSettings":
+			{
+				"Color":
+				{
+					"r": 1,
+					"g": 1,
+					"b": 0,
+					"a": 1
+				},
+				"Emission":
+				{
+					"r": 0,
+					"g": 0,
+					"b": 0,
+					"a": 1
+				}
+			},
+			"boolSettings":
+			{
+				"EnableCollision": true,
+				"UseTriplanarMapping": true
+			},
+			"stringSettings":
+			{
+				"Texture Override URL": "",
+				"MaterialOverride": ""
+			},
+			"vectorSettings":
+			{
+			},
+			"bIsVisible": false,
+			"bIsInteractable": false,
+			"bIsCompletelyLocked": false,
+			"guid": "B772B0174175D53A518DC0A16B782306",
+			"parent": "38E5F8444230CC63787C2487A163C857",
+			"childIndex": 5,
+			"attachment": "None",
+			"attachmentCharacterIndex": 0,
+			"bIsFoldedOut": false,
+			"customEvents":
+			{
+				"outEvents":
+				{
+				},
+				"inEvents":
+				{
+					"SetVisibility":
+					{
+						"eventId": "SetVisibility",
+						"eventNames": [
+							"dialogue_option_vis_006"
+						],
+						"eventValues": [
+							""
+						]
+					},
+					"SetOptionValue":
+					{
+						"eventId": "SetOptionValue",
+						"eventNames": [
+							"dialogue_option_color_006"
+						],
+						"eventValues": [
+							""
+						]
+					}
+				}
+			}
+		},
+		{
+			"iD": "Speechbubble",
+			"label": "DialogueOptionText_006",
+			"position":
+			{
+				"x": -3.2586325998673615e-11,
+				"y": 0.00024222278443630785,
+				"z": 2.4982575268950313e-05
+			},
+			"rotation":
+			{
+				"pitch": 180,
+				"yaw": -7.0226645679238864e-12,
+				"roll": 89.999855041503906
+			},
+			"scale":
+			{
+				"x": 3.4122869968414307,
+				"y": 17.398534774780273,
+				"z": 4
+			},
+			"floatSettings":
+			{
+				"BubbleWidth": 0,
+				"BubbleHeight": 0,
+				"Font Size": 3,
+				"TextOffsetVertical": 0,
+				"TextOffsetHorizontal": 0
+			},
+			"intSettings":
+			{
+				"Type": 0,
+				"Alignment": 0
+			},
+			"colorSettings":
+			{
+				"backgroundColor":
+				{
+					"r": 0.49803900718688965,
+					"g": 0.49803900718688965,
+					"b": 0.49803900718688965,
+					"a": 1
+				},
+				"TextColor":
+				{
+					"r": 0,
+					"g": 0,
+					"b": 0,
+					"a": 1
+				}
+			},
+			"boolSettings":
+			{
+				"AlignToCamera": false
+			},
+			"stringSettings":
+			{
+				"Text": "Hello"
+			},
+			"vectorSettings":
+			{
+			},
+			"bIsVisible": false,
+			"bIsInteractable": false,
+			"bIsCompletelyLocked": false,
+			"guid": "70EB4BC54F8CE831B5AF0A8BF1F2A173",
+			"parent": "B772B0174175D53A518DC0A16B782306",
+			"childIndex": 0,
+			"attachment": "None",
+			"attachmentCharacterIndex": 0,
+			"bIsFoldedOut": false,
+			"customEvents":
+			{
+				"outEvents":
+				{
+				},
+				"inEvents":
+				{
+					"SetVisibility":
+					{
+						"eventId": "SetVisibility",
+						"eventNames": [
+							"dialogue_option_vis_006"
+						],
+						"eventValues": [
+							""
+						]
+					},
+					"SetOptionValue":
+					{
+						"eventId": "SetOptionValue",
+						"eventNames": [],
+						"eventValues": []
+					},
+					"ChangeText":
+					{
+						"eventId": "ChangeText",
+						"eventNames": [
+							"dialogue_option_text_006"
+						],
+						"eventValues": [
+							""
+						]
+					}
+				}
+			}
+		},
+		{
+			"iD": "Condition",
+			"label": "MenuItemHoverCondition_006",
+			"position":
+			{
+				"x": 11.771400451660156,
+				"y": -1922.3997802734375,
+				"z": -1264.8243408203125
+			},
+			"rotation":
+			{
+				"pitch": 0,
+				"yaw": 0,
+				"roll": 89.99981689453125
+			},
+			"scale":
+			{
+				"x": 3.4122893810272217,
+				"y": 17.398540496826172,
+				"z": 4
+			},
+			"floatSettings":
+			{
+			},
+			"intSettings":
+			{
+			},
+			"colorSettings":
+			{
+			},
+			"boolSettings":
+			{
+				"HideDuringPlayMode": true
+			},
+			"stringSettings":
+			{
+				"valueA": "2",
+				"valueB": "6",
+				"Condition": "=="
+			},
+			"vectorSettings":
+			{
+			},
+			"bIsVisible": true,
+			"bIsInteractable": false,
+			"bIsCompletelyLocked": false,
+			"guid": "58FD586E4F0AADEC8919A1B8B3A7F744",
+			"parent": "B772B0174175D53A518DC0A16B782306",
+			"childIndex": 1,
+			"attachment": "None",
+			"attachmentCharacterIndex": 0,
+			"bIsFoldedOut": false,
+			"customEvents":
+			{
+				"outEvents":
+				{
+					"OnConditionTrue":
+					{
+						"eventId": "OnConditionTrue",
+						"eventNames": [
+							"dialogue_option_color_006"
+						],
+						"eventValues": [
+							"Color;r=0,g=1,b=0"
+						]
+					},
+					"OnConditionFalse":
+					{
+						"eventId": "OnConditionFalse",
+						"eventNames": [
+							"dialogue_option_color_006"
+						],
+						"eventValues": [
+							"Color;r=1,g=1,b=0"
+						]
+					},
+					"OnConditionTrueReturnA":
+					{
+						"eventId": "OnConditionTrueReturnA",
+						"eventNames": [],
+						"eventValues": []
+					},
+					"OnConditionFalseReturnA":
+					{
+						"eventId": "OnConditionFalseReturnA",
+						"eventNames": [],
+						"eventValues": []
+					},
+					"OnConditionTrueReturnB":
+					{
+						"eventId": "OnConditionTrueReturnB",
+						"eventNames": [],
+						"eventValues": []
+					},
+					"OnConditionFalseReturnB":
+					{
+						"eventId": "OnConditionFalseReturnB",
+						"eventNames": [],
+						"eventValues": []
+					}
+				},
+				"inEvents":
+				{
+					"SetVisibility":
+					{
+						"eventId": "SetVisibility",
+						"eventNames": [],
+						"eventValues": []
+					},
+					"SetOptionValue":
+					{
+						"eventId": "SetOptionValue",
+						"eventNames": [],
+						"eventValues": []
+					},
+					"SetValueA":
+					{
+						"eventId": "SetValueA",
+						"eventNames": [],
+						"eventValues": []
+					},
+					"SetValueB":
+					{
+						"eventId": "SetValueB",
+						"eventNames": [],
+						"eventValues": []
+					},
+					"SetValueAAndRun":
+					{
+						"eventId": "SetValueAAndRun",
+						"eventNames": [
+							"hover_menu_item"
+						],
+						"eventValues": [
+							""
+						]
+					},
+					"SetValueBAndRun":
+					{
+						"eventId": "SetValueBAndRun",
+						"eventNames": [],
+						"eventValues": []
+					},
+					"Run":
+					{
+						"eventId": "Run",
+						"eventNames": [],
+						"eventValues": []
+					}
+				}
+			}
+		},
+		{
+			"iD": "Speechbubble",
+			"label": "DialogueText",
+			"position":
+			{
+				"x": 65.334564208984375,
+				"y": 5.340576171875e-05,
+				"z": -34.458168029785156
+			},
+			"rotation":
+			{
+				"pitch": 0,
+				"yaw": 90.000007629394531,
+				"roll": 0.10088151693344116
+			},
+			"scale":
+			{
+				"x": 1,
+				"y": 1,
+				"z": 1
+			},
+			"floatSettings":
+			{
+				"BubbleWidth": 0,
+				"BubbleHeight": 0,
+				"Font Size": 3,
+				"TextOffsetVertical": 0,
+				"TextOffsetHorizontal": 0
+			},
+			"intSettings":
+			{
+				"Type": 0,
+				"Alignment": 0
+			},
+			"colorSettings":
+			{
+				"backgroundColor":
+				{
+					"r": 1,
+					"g": 1,
+					"b": 1,
+					"a": 0
+				},
+				"TextColor":
+				{
+					"r": 1,
+					"g": 1,
+					"b": 1,
+					"a": 1
+				}
+			},
+			"boolSettings":
+			{
+				"AlignToCamera": false
+			},
+			"stringSettings":
+			{
+				"Text": "Hey, beauty!"
+			},
+			"vectorSettings":
+			{
+			},
+			"bIsVisible": false,
+			"bIsInteractable": false,
+			"bIsCompletelyLocked": false,
+			"guid": "6730725044D86206C59FE4A30A77D5C7",
+			"parent": "8B266A164396BC7087584B82C32FC589",
+			"childIndex": 1,
+			"attachment": "None",
+			"attachmentCharacterIndex": 0,
+			"bIsFoldedOut": false,
+			"customEvents":
+			{
+				"outEvents":
+				{
+				},
+				"inEvents":
+				{
+					"SetVisibility":
+					{
+						"eventId": "SetVisibility",
+						"eventNames": [
+							"dialogue_is_active"
+						],
+						"eventValues": [
+							""
+						]
+					},
+					"SetOptionValue":
+					{
+						"eventId": "SetOptionValue",
+						"eventNames": [],
+						"eventValues": []
+					},
+					"ChangeText":
+					{
+						"eventId": "ChangeText",
+						"eventNames": [
+							"dialogue_text"
+						],
+						"eventValues": [
+							""
+						]
+					}
+				}
+			}
+		},
+		{
+			"iD": "Transformer",
+			"label": "Cursor",
+			"position":
+			{
+				"x": 1.1609801054000854,
+				"y": 0.73379373550415039,
+				"z": 0.21544526517391205
+			},
+			"rotation":
+			{
+				"pitch": 0,
+				"yaw": 0,
+				"roll": 0
+			},
+			"scale":
+			{
+				"x": 1,
+				"y": 1,
+				"z": 1
+			},
+			"floatSettings":
+			{
+				"InterpolationExponent": 1,
+				"travelTime": 1,
+				"StartTravelTimeMultiplier": 1,
+				"EndTravelTimeMultiplier": 1
+			},
+			"intSettings":
+			{
+			},
+			"colorSettings":
+			{
+			},
+			"boolSettings":
+			{
+				"ShowIcon": true,
+				"IsAtEnd": false,
+				"UseShortestPath": true
+			},
+			"stringSettings":
+			{
+			},
+			"vectorSettings":
+			{
+				"startLocation":
+				{
+					"x": 1.1609971523284912,
+					"y": 0,
+					"z": -9.1314315795898438e-05
+				},
+				"startRotation":
+				{
+					"x": 0,
+					"y": 0,
+					"z": 0
+				},
+				"StartScale":
+				{
+					"x": 1,
+					"y": 1,
+					"z": 1
+				},
+				"EndLocation":
+				{
+					"x": 1.1610000133514404,
+					"y": 0.73377597332000732,
+					"z": 0.21545200049877167
+				},
+				"EndRotation":
+				{
+					"x": 0,
+					"y": 0,
+					"z": 0
+				},
+				"EndScale":
+				{
+					"x": 1,
+					"y": 1,
+					"z": 1
+				}
+			},
+			"bIsVisible": true,
+			"bIsInteractable": false,
+			"bIsCompletelyLocked": false,
+			"guid": "BA39D20F4B6EB6AD16ECFCB7282A7EB5",
+			"parent": "8B266A164396BC7087584B82C32FC589",
+			"childIndex": 2,
+			"attachment": "None",
+			"attachmentCharacterIndex": 0,
+			"bIsFoldedOut": true,
+			"customEvents":
+			{
+				"outEvents":
+				{
+					"OnReachedStart":
+					{
+						"eventId": "OnReachedStart",
+						"eventNames": [],
+						"eventValues": []
+					},
+					"OnReachedEnd":
+					{
+						"eventId": "OnReachedEnd",
+						"eventNames": [],
+						"eventValues": []
+					}
+				},
+				"inEvents":
+				{
+					"SetVisibility":
+					{
+						"eventId": "SetVisibility",
+						"eventNames": [],
+						"eventValues": []
+					},
+					"SetOptionValue":
+					{
+						"eventId": "SetOptionValue",
+						"eventNames": [
+							"set_cursor_end_location"
+						],
+						"eventValues": [
+							""
+						]
+					},
+					"MoveToStart":
+					{
+						"eventId": "MoveToStart",
+						"eventNames": [],
+						"eventValues": []
+					},
+					"MoveToEnd":
+					{
+						"eventId": "MoveToEnd",
+						"eventNames": [],
+						"eventValues": []
+					},
+					"SetToStart":
+					{
+						"eventId": "SetToStart",
+						"eventNames": [],
+						"eventValues": []
+					},
+					"SetToEnd":
+					{
+						"eventId": "SetToEnd",
+						"eventNames": [
+							"set_cursor_end_location"
+						],
+						"eventValues": [
+							""
+						]
+					},
+					"Stop":
+					{
+						"eventId": "Stop",
+						"eventNames": [],
+						"eventValues": []
+					}
+				}
+			}
+		},
+		{
+			"iD": "Group",
+			"label": "Group",
+			"position":
+			{
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"rotation":
+			{
+				"pitch": 89.899124145507812,
+				"yaw": -0.43325886130332947,
+				"roll": -0.056664988398551941
+			},
+			"scale":
+			{
+				"x": 1.7615013348404318e-05,
+				"y": 1.7615013348404318e-05,
+				"z": 0.0013550010044127703
+			},
+			"floatSettings":
+			{
+			},
+			"intSettings":
+			{
+			},
+			"colorSettings":
+			{
+			},
+			"boolSettings":
+			{
+				"ShowIcon": true
+			},
+			"stringSettings":
+			{
+			},
+			"vectorSettings":
+			{
+			},
+			"bIsVisible": true,
+			"bIsInteractable": false,
+			"bIsCompletelyLocked": false,
+			"guid": "9699DCF2463AAA70868620A817116341",
+			"parent": "BA39D20F4B6EB6AD16ECFCB7282A7EB5",
+			"childIndex": 0,
+			"attachment": "None",
+			"attachmentCharacterIndex": 0,
+			"bIsFoldedOut": true,
+			"customEvents":
+			{
+				"outEvents":
+				{
+				},
+				"inEvents":
+				{
+					"SetVisibility":
+					{
+						"eventId": "SetVisibility",
+						"eventNames": [],
+						"eventValues": []
+					},
+					"SetOptionValue":
+					{
+						"eventId": "SetOptionValue",
+						"eventNames": [],
+						"eventValues": []
+					}
+				}
+			}
+		},
+		{
+			"iD": "WaterPlane",
+			"label": "LeftWhite",
+			"position":
+			{
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"rotation":
+			{
+				"pitch": 0,
+				"yaw": 0,
+				"roll": 0
+			},
+			"scale":
+			{
+				"x": 1,
+				"y": 0.25,
+				"z": 1
+			},
+			"floatSettings":
+			{
+				"ShoreColorFadeDist": 0,
+				"EdgeFadeDist": 0,
+				"Specular": 0,
+				"WaveSmoothness": 64,
+				"WaveTiling": 1,
+				"TesselatedWaveSize": 0,
+				"RefractionAmount": 0
+			},
+			"intSettings":
+			{
+			},
+			"colorSettings":
+			{
+				"CenterColor":
+				{
+					"r": 1,
+					"g": 0,
+					"b": 0.042731761932373047,
+					"a": 1
+				},
+				"ShoreColor":
+				{
+					"r": 0,
+					"g": 0,
+					"b": 0,
+					"a": 0
+				}
+			},
+			"boolSettings":
+			{
+				"Round Shape": false
+			},
+			"stringSettings":
+			{
+			},
+			"vectorSettings":
+			{
+			},
+			"bIsVisible": true,
+			"bIsInteractable": false,
+			"bIsCompletelyLocked": false,
+			"guid": "10A54C1242069E78DDD66A9CC08C9A60",
+			"parent": "9699DCF2463AAA70868620A817116341",
+			"childIndex": 0,
+			"attachment": "None",
+			"attachmentCharacterIndex": 0,
+			"bIsFoldedOut": false,
+			"customEvents":
+			{
+				"outEvents":
+				{
+				},
+				"inEvents":
+				{
+					"SetVisibility":
+					{
+						"eventId": "SetVisibility",
+						"eventNames": [],
+						"eventValues": []
+					},
+					"SetOptionValue":
+					{
+						"eventId": "SetOptionValue",
+						"eventNames": [],
+						"eventValues": []
+					}
+				}
+			}
+		},
+		{
+			"iD": "WaterPlane",
+			"label": "RightWhite",
+			"position":
+			{
+				"x": 131.553955078125,
+				"y": 233.34747314453125,
+				"z": -0.0228271484375
+			},
+			"rotation":
+			{
+				"pitch": 0,
+				"yaw": -30,
+				"roll": 0
+			},
+			"scale":
+			{
+				"x": 1,
+				"y": 0.25,
+				"z": 1
+			},
+			"floatSettings":
+			{
+				"ShoreColorFadeDist": 0,
+				"EdgeFadeDist": 0,
+				"Specular": 0,
+				"WaveSmoothness": 64,
+				"WaveTiling": 1,
+				"TesselatedWaveSize": 0,
+				"RefractionAmount": 0
+			},
+			"intSettings":
+			{
+			},
+			"colorSettings":
+			{
+				"CenterColor":
+				{
+					"r": 1,
+					"g": 0,
+					"b": 0.042731761932373047,
+					"a": 1
+				},
+				"ShoreColor":
+				{
+					"r": 0,
+					"g": 0,
+					"b": 0,
+					"a": 0
+				}
+			},
+			"boolSettings":
+			{
+				"Round Shape": false
+			},
+			"stringSettings":
+			{
+			},
+			"vectorSettings":
+			{
+			},
+			"bIsVisible": true,
+			"bIsInteractable": false,
+			"bIsCompletelyLocked": false,
+			"guid": "DCE1537A4FC991AD0569C4A6FB6D76BE",
+			"parent": "9699DCF2463AAA70868620A817116341",
+			"childIndex": 1,
+			"attachment": "None",
+			"attachmentCharacterIndex": 0,
+			"bIsFoldedOut": false,
+			"customEvents":
+			{
+				"outEvents":
+				{
+				},
+				"inEvents":
+				{
+					"SetVisibility":
+					{
+						"eventId": "SetVisibility",
+						"eventNames": [],
+						"eventValues": []
+					},
+					"SetOptionValue":
+					{
+						"eventId": "SetOptionValue",
+						"eventNames": [],
+						"eventValues": []
+					}
+				}
+			}
+		},
+		{
+			"iD": "WaterPlane",
+			"label": "MiddleWhite",
+			"position":
+			{
+				"x": -132.859130859375,
+				"y": 176.22369384765625,
+				"z": 0.0089111328125
+			},
+			"rotation":
+			{
+				"pitch": 0,
+				"yaw": -15.00006103515625,
+				"roll": 0
+			},
+			"scale":
+			{
+				"x": 1.3797786235809326,
+				"y": 0.25,
+				"z": 1
+			},
+			"floatSettings":
+			{
+				"ShoreColorFadeDist": 0,
+				"EdgeFadeDist": 0,
+				"Specular": 0,
+				"WaveSmoothness": 64,
+				"WaveTiling": 1,
+				"TesselatedWaveSize": 0,
+				"RefractionAmount": 0
+			},
+			"intSettings":
+			{
+			},
+			"colorSettings":
+			{
+				"CenterColor":
+				{
+					"r": 1,
+					"g": 0,
+					"b": 0.042731761932373047,
+					"a": 1
+				},
+				"ShoreColor":
+				{
+					"r": 0,
+					"g": 0,
+					"b": 0,
+					"a": 0
+				}
+			},
+			"boolSettings":
+			{
+				"Round Shape": false
+			},
+			"stringSettings":
+			{
+			},
+			"vectorSettings":
+			{
+			},
+			"bIsVisible": true,
+			"bIsInteractable": false,
+			"bIsCompletelyLocked": false,
+			"guid": "D618892947D02BFD7CC819A1183AE329",
+			"parent": "9699DCF2463AAA70868620A817116341",
+			"childIndex": 2,
+			"attachment": "None",
+			"attachmentCharacterIndex": 0,
+			"bIsFoldedOut": false,
+			"customEvents":
+			{
+				"outEvents":
+				{
+				},
+				"inEvents":
+				{
+					"SetVisibility":
+					{
+						"eventId": "SetVisibility",
+						"eventNames": [],
+						"eventValues": []
+					},
+					"SetOptionValue":
+					{
+						"eventId": "SetOptionValue",
+						"eventNames": [],
+						"eventValues": []
+					}
+				}
+			}
+		},
+		{
+			"iD": "Transformer",
+			"label": "Outliners",
+			"position":
+			{
+				"x": 1.8369930982589722,
+				"y": 0,
+				"z": -6.1154365539550781e-05
+			},
+			"rotation":
+			{
+				"pitch": 0,
+				"yaw": 0,
+				"roll": 0
+			},
+			"scale":
+			{
+				"x": 1,
+				"y": 1,
+				"z": 1
+			},
+			"floatSettings":
+			{
+				"InterpolationExponent": 1,
+				"travelTime": 1,
+				"StartTravelTimeMultiplier": 1,
+				"EndTravelTimeMultiplier": 1
+			},
+			"intSettings":
+			{
+			},
+			"colorSettings":
+			{
+			},
+			"boolSettings":
+			{
+				"ShowIcon": false,
+				"IsAtEnd": false,
+				"UseShortestPath": true
+			},
+			"stringSettings":
+			{
+			},
+			"vectorSettings":
+			{
+				"startLocation":
+				{
+					"x": 1.8369930982589722,
+					"y": 0,
+					"z": -6.1154365539550781e-05
+				},
+				"startRotation":
+				{
+					"x": 0,
+					"y": 0,
+					"z": 0
+				},
+				"StartScale":
+				{
+					"x": 1,
+					"y": 1,
+					"z": 1
+				},
+				"EndLocation":
+				{
+					"x": 1.8369930982589722,
+					"y": 0,
+					"z": -6.1154365539550781e-05
+				},
+				"EndRotation":
+				{
+					"x": 0,
+					"y": 0,
+					"z": 0
+				},
+				"EndScale":
+				{
+					"x": 1,
+					"y": 1,
+					"z": 1
+				}
+			},
+			"bIsVisible": true,
+			"bIsInteractable": false,
+			"bIsCompletelyLocked": false,
+			"guid": "ABB2D1FC4A0DDDA7F30AEFBD20626B54",
+			"parent": "8B266A164396BC7087584B82C32FC589",
+			"childIndex": 3,
+			"attachment": "None",
+			"attachmentCharacterIndex": 0,
+			"bIsFoldedOut": true,
+			"customEvents":
+			{
+				"outEvents":
+				{
+					"OnReachedStart":
+					{
+						"eventId": "OnReachedStart",
+						"eventNames": [],
+						"eventValues": []
+					},
+					"OnReachedEnd":
+					{
+						"eventId": "OnReachedEnd",
+						"eventNames": [],
+						"eventValues": []
+					}
+				},
+				"inEvents":
+				{
+					"SetVisibility":
+					{
+						"eventId": "SetVisibility",
+						"eventNames": [],
+						"eventValues": []
+					},
+					"SetOptionValue":
+					{
+						"eventId": "SetOptionValue",
+						"eventNames": [],
+						"eventValues": []
+					},
+					"MoveToStart":
+					{
+						"eventId": "MoveToStart",
+						"eventNames": [],
+						"eventValues": []
+					},
+					"MoveToEnd":
+					{
+						"eventId": "MoveToEnd",
+						"eventNames": [],
+						"eventValues": []
+					},
+					"SetToStart":
+					{
+						"eventId": "SetToStart",
+						"eventNames": [],
+						"eventValues": []
+					},
+					"SetToEnd":
+					{
+						"eventId": "SetToEnd",
+						"eventNames": [],
+						"eventValues": []
+					},
+					"Stop":
+					{
+						"eventId": "Stop",
+						"eventNames": [],
+						"eventValues": []
+					}
+				}
+			}
+		},
+		{
+			"iD": "WaterPlane",
+			"label": "TopOutliner",
+			"position":
+			{
+				"x": 2.765655517578125e-05,
+				"y": 0,
+				"z": 1.8959990739822388
+			},
+			"rotation":
+			{
+				"pitch": 90,
+				"yaw": 0,
+				"roll": 0
+			},
+			"scale":
+			{
+				"x": 0.0020000000949949026,
+				"y": 0.10000000149011612,
+				"z": 0.0010000000474974513
+			},
+			"floatSettings":
+			{
+				"ShoreColorFadeDist": 0,
+				"EdgeFadeDist": 0,
+				"Specular": 0,
+				"WaveSmoothness": 0,
+				"WaveTiling": 1,
+				"TesselatedWaveSize": 0,
+				"RefractionAmount": 0
+			},
+			"intSettings":
+			{
+			},
+			"colorSettings":
+			{
+				"CenterColor":
+				{
+					"r": 0,
+					"g": 0,
+					"b": 0,
+					"a": 1
+				},
+				"ShoreColor":
+				{
+					"r": 0,
+					"g": 0,
+					"b": 0,
+					"a": 1
+				}
+			},
+			"boolSettings":
+			{
+				"Round Shape": false
+			},
+			"stringSettings":
+			{
+			},
+			"vectorSettings":
+			{
+			},
+			"bIsVisible": false,
+			"bIsInteractable": false,
+			"bIsCompletelyLocked": false,
+			"guid": "118E248349CA5F5DC62DEAA3B8028AAD",
+			"parent": "ABB2D1FC4A0DDDA7F30AEFBD20626B54",
+			"childIndex": 0,
+			"attachment": "None",
+			"attachmentCharacterIndex": 0,
+			"bIsFoldedOut": false,
+			"customEvents":
+			{
+				"outEvents":
+				{
+				},
+				"inEvents":
+				{
+					"SetVisibility":
+					{
+						"eventId": "SetVisibility",
+						"eventNames": [
+							"dialogue_is_active"
+						],
+						"eventValues": [
+							""
+						]
+					},
+					"SetOptionValue":
+					{
+						"eventId": "SetOptionValue",
+						"eventNames": [],
+						"eventValues": []
+					}
+				}
+			}
+		},
+		{
+			"iD": "WaterPlane",
+			"label": "BottomOutliner",
+			"position":
+			{
+				"x": 63.497573852539062,
+				"y": -3.814697265625e-06,
+				"z": -34.458095550537109
+			},
+			"rotation":
+			{
+				"pitch": 90,
+				"yaw": -179.98170471191406,
+				"roll": 179.98991394042969
+			},
+			"scale":
+			{
+				"x": 0.0057195019908249378,
+				"y": 0.1308077871799469,
+				"z": 0.0010000000474974513
+			},
+			"floatSettings":
+			{
+				"ShoreColorFadeDist": 0,
+				"EdgeFadeDist": 0,
+				"Specular": 0,
+				"WaveSmoothness": 0,
+				"WaveTiling": 0,
+				"TesselatedWaveSize": 0,
+				"RefractionAmount": 0
+			},
+			"intSettings":
+			{
+			},
+			"colorSettings":
+			{
+				"CenterColor":
+				{
+					"r": 0,
+					"g": 0,
+					"b": 0,
+					"a": 1
+				},
+				"ShoreColor":
+				{
+					"r": 0,
+					"g": 0,
+					"b": 0,
+					"a": 1
+				}
+			},
+			"boolSettings":
+			{
+				"Round Shape": false
+			},
+			"stringSettings":
+			{
+			},
+			"vectorSettings":
+			{
+			},
+			"bIsVisible": false,
+			"bIsInteractable": false,
+			"bIsCompletelyLocked": false,
+			"guid": "E94729DF43FE56D0C4B1F981B0D7EB3F",
+			"parent": "ABB2D1FC4A0DDDA7F30AEFBD20626B54",
+			"childIndex": 1,
+			"attachment": "None",
+			"attachmentCharacterIndex": 0,
+			"bIsFoldedOut": false,
+			"customEvents":
+			{
+				"outEvents":
+				{
+				},
+				"inEvents":
+				{
+					"SetVisibility":
+					{
+						"eventId": "SetVisibility",
+						"eventNames": [
+							"dialogue_is_active"
+						],
+						"eventValues": [
+							""
+						]
+					},
+					"SetOptionValue":
+					{
+						"eventId": "SetOptionValue",
+						"eventNames": [],
+						"eventValues": []
+					}
+				}
+			}
+		}
+	],
+	"customMaterials": [],
+	"levelOptions":
+	{
+	}
+}
